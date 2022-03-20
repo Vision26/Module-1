@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+    width: 1000px;
+}
+.Pink {
+    position:relative;
+    padding:60px;
+    background-color:#F5C6D6;
+    left:125px;
+}
+@media only screen and (min-width:300px){
+    .Pink {
+        position:relative;
+        padding:30px;
+        background-color:#F5C6D6;
+        left:125px;
+        width:1000px;
+    }
+}
+.DarkPink-A {
+    position:relative;
+    top:15px;
+    left:125px;
+    background-color:#EE2E84;
+    padding:60px;
+    width:235px;
+}
+.DarkPink-B {
+    position:relative;
+    top:-105px;
+    left:380px;
+    background-color:#EE2E84;
+    padding:60px;
+    width:235px;
+}
+.DarkPink-C {
+    position:relative;
+    top:-225px;
+    left:635px;
+    background-color:#EE2E84;
+    padding:60px;
+    width:235px;
+}
+.DarkPink-D {
+    position:relative;
+    top:-345px;
+    left:890px;
+    background-color:#EE2E84;
+    padding:60px;
+    width:235px;
+}
+@media only screen and (min-width:550px){
+    .DarkPink-A {
+        position:relative;
+        top:10px;
+        left:125px;
+        background-color:#EE2E84;
+        padding:31px;
+        width:1000px;
+    }
+    .DarkPink-B {
+        position:relative;
+        top:19px;
+        left:125px;
+        background-color:#EE2E84;
+        padding:28px;
+        width:1000px;
+    }
+    .DarkPink-C {
+        position:relative;
+        top:25px;
+        left:125px;
+        background-color:#EE2E84;
+        padding:25px;
+        width:1000px;
+    }
+    .DarkPink-D {
+        position:relative;
+        top:30px;
+        left:125px;
+        background-color:#EE2E84;
+        padding:22px;
+        width:1000px;
+    }
+}
+.SkyBlue-A {
+    position:relative;
+    top:-330px;
+    left:125px;
+    background-color:#85CFD8;
+    padding:60px;
+    width:490px;
+}
+.SkyBlue-B {
+    position:relative;
+    top:-450px;
+    left:635px;
+    background-color:#85CFD8;
+    padding:60px;
+    width:490px;
+}
+@media only screen and (min-width:700px){
+    .SkyBlue-A {
+        position:relative;
+        top:34px;
+        left:125px;
+        background-color:#85CFD8;
+        padding:19px;
+        width:1000px;
+    }
+    .SkyBlue-B {
+        position:relative;
+        top:37px;
+        left:125px;
+        background-color:#85CFD8;
+        padding:16px;
+        width:1000px;
+    }
+}
+.Green {
+    position:relative;
+        top:-435px;
+        left:125px;
+        background-color:#8DC63F;
+        padding:60px;
+        width:745px;
+    }
+    .Mustard {
+        position:relative;
+        top:-555px;
+        left:890px;
+        background-color:#E76E34;
+        padding:60px;
+        width:235px;
+    }
+    @media only screen and (min-width:850px){
+        .Green {
+            position:relative;
+                top:40px;
+                left:125px;
+                background-color:blueviolet;
+                padding:13px;
+                width:1000px;
+            }
+            .Mustard {
+                position:relative;
+                top:42px;
+                left:125px;
+                background-color:black;
+                padding:10px;
+                width:1000px;
+            }
+    }

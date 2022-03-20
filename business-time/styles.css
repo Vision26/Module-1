@@ -1,0 +1,342 @@
+* {
+    margin:0;
+    padding:0;
+}
+html, body {
+    background-color:maroon;
+    height:80%;
+}
+.header {
+    padding:40px;
+    width:1200px;
+    height:1px;
+    background-color:black;
+}
+.header-a {
+    position:relative;
+    top:-60px;
+    color:maroon;
+    background-color:#ffffff;
+    font-family: fantasy;
+    text-align: center;
+    border:1px solid maroon;
+    border-radius: 6px;
+    width:150px;
+    margin-left:35px;
+}
+.header-a:hover {
+    cursor:pointer;
+    color:black;
+}
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border:0px solid black;
+    color:#ffffff;
+    margin-left:140px;
+    margin-right:30px;
+    position:relative;
+    top:-80px;
+    font-family:fantasy;
+}
+.menu > div {
+    text-align:center;
+    font-size:22px;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    
+}
+.shop:hover {
+    cursor:pointer;
+    background-color:maroon;
+    border:1px solid maroon;
+    border-radius:5px;
+    width:70px;
+}
+.sell:hover {
+    cursor:pointer;
+    background-color:maroon;
+    border:1px solid maroon;
+    border-radius:5px;
+    width:70px;
+}
+.upcoming:hover {
+    cursor:pointer;
+    background-color:maroon;
+    border:1px solid maroon;
+    border-radius:5px;
+    width:130px;
+}
+
+.global:hover {
+    cursor:pointer;
+    background-color:maroon;
+    border:1px solid maroon;
+    border-radius:5px;
+    width:100px;
+}
+.home {
+    color:maroon;
+}
+.home:hover {
+    cursor:pointer;
+    background-color:#ffffff;
+    border:1px solid maroon;
+    border-radius:5px;
+    width:100px;
+}
+#form {
+    position:relative;
+    top:-142px;
+    left:1040px;
+    border:1px solid black;
+    width:220px;
+    display:flex;
+    flex-direction: row;
+}
+.kakashi {
+    position:relative;
+    border:0px solid burlywood;
+    top:-125px;
+    left:-25px;
+    margin:15px 25px 15px 25px;
+}
+.kakashi-imageA {
+    opacity:0.2;
+}
+.bottom {
+    position:relative;
+    top:-155px;
+    padding:100px;
+    height:125px;
+    width:1080px;
+    background-color:black;
+}
+.login {
+    position:relative;
+    top:-1225px;
+    padding:60px;
+    width:552px;
+    height:40px;
+    background-color:black;
+    border-radius: 2px;
+    margin:0px 0px 0px 10px;
+}
+.login > span {
+    display:inline-block;
+    color:white;
+    font-size: 30px;
+    position:relative;
+    top:-45px;
+    left:-24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login > span:nth-child(6) {
+    color:maroon;
+    margin:0px 8px 0px 8px;
+}
+.login-a {
+    position:relative;
+    top:-1340px;
+    width:200px;
+}
+.remember-me {
+    color:maroon;
+}
+.mid-box {
+    position:relative;
+    top:-1405px;
+    padding:100px;
+    width:492px;
+    height:360px;
+    background-color:black;
+    border-radius: 2px;
+    margin: 0px 0px 0px 10px;
+}
+.main-room {
+    position:relative;
+    top:-1962.7px;
+    display:grid;
+    grid-template-columns: repeat(4, 168px);
+    grid-template-rows: repeat(12, 47.5px);
+    color:white;
+    margin: 0px 0px 0px 10px;
+}
+header {
+    background-color:black;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline;
+    font-size: 22px;
+}
+nav {
+    background-color:rgb(150, 114, 114);
+    grid-column:1 /5;
+    grid-row:2 / 7;
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    height:20px;
+    margin:0px 0px 0px 20px;
+}
+a {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    color:seashell;
+}
+.naruto {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color:rgb(248, 215, 31);
+}
+.cowboy-bebop {
+    background-color:#fc3c04;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.a-silent-voice {
+    background-color:rgb(214, 115, 169);
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.spirited-away {
+    background-color: rgb(212, 83, 133);
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.your-name {
+    background-color: rgb(247, 99, 168);
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.attack-on-titan {
+    background-color: rgb(92, 61, 36);
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.more {
+    background-color:royalblue;
+}
+.flex-boxA {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    top:-200px;
+    left:11px;
+    margin:5px 0px 5px 0px;
+}
+.naruto-image {
+    height:140px;
+    width:220px;
+    
+}
+.cowboybebop-imageM {
+    height:140px;
+    width:220px;
+}
+.asilentvoice-imageN {
+    height:140px;
+    width:220px;
+}
+.box-flexD {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top:-50px;
+    left:11px;
+}
+.spiritedaway-imageB {
+    position:relative;
+    left:60px;
+    height:200px;
+    width:140px;
+}
+.yourname-imageV {
+    position:relative;
+    right:-135px;
+    height:200px;
+    width:140px;
+}
+.attackontitan-imageR {
+    position:relative;
+    top:30px;
+    right:-167px;
+    height:140px;
+    width:240px;
+}
+.nav-box-line {
+    position:relative;
+    top:255px;
+    left:-293px;
+    padding:2px;
+    height:1px;
+    width:600px;
+    background-color: white;
+}
+.boruto {
+    position:relative;
+    top:300px;
+    left:-476px;
+    height:140px;
+    width:220px;
+}
+.boruto:hover {
+    background-color: gold;
+    padding:30px;
+    height:110px;
+    width:230px;
+}
+p {
+  position:relative;
+  top:400px;
+  font-size: 12px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.end-webpage-line{
+    position:relative;
+    top:260px;
+    left:70px;
+    padding:2px;
+    height:200px;
+    width:2px;
+    background-color: #ffffff;
+}
+.Outer li {
+    display:inline;
+    color:#ffffff;
+    position: relative;
+    top:240px;
+    left:-70px;
+    font-family:fantasy;
+    font-size: 25px;
+    font-weight: bold;
+    color:Gold;
+}
+.hoodie-forsale {
+    position:relative;
+    top:280px;
+    left:-235px;
+    height:150px;
+    width:120px;
+    color:palevioletred;
+}
